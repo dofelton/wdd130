@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=PT+Sans&display=swap');
+
+:root {
+    --primary-color: #FEF6C9;
+    --secondary-color: #011638;
+    --accent1-color: #0D21A1;
+    --accent2-color: #DE2E2B;
+    
+    --heading-font: 'PT Sans', serif;
+    --paragraph-font: 'Lato', serif;
+    
+    --nav-background-color: #FEF6C9;
+    --nav-link-color: #DE2E2B;
+    --nav-hover-link-color: #0D21A1;
+    --nav-hover-background-color: #FEF6C9
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font_family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nava:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
