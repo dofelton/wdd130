@@ -41,7 +41,11 @@ nav {
     display: flex;
 }
 
-nava:link, nav a:visited {
+nava:link {
+    color: var(--nav-link-color);
+}
+
+nav a:visited {
     color: var(--nav-link-color);
 }
 
