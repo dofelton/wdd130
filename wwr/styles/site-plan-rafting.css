@@ -6,7 +6,7 @@
     --accent1-color: #0D21A1;
     --accent2-color: #DE2E2B;
     
-    --heading-font: 'PT Sans', serif;
+    --heading-font: 'PTSans', serif;
     --paragraph-font: 'Lato', serif;
     
     --nav-background-color: #FEF6C9;
@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font_family: var(--heading-font);
+    font-family: var(--heading-font);
     color: var(--secondary-color);
 }
 
