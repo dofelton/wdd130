@@ -32,7 +32,7 @@ main {
 aside {
   margin: 1em;
   border: 1 px solid rgb(0, 0, 0, 0.2);
-  padding: 1 em;
+  padding: 1;
   background-color: #FEF6C9;
   color: #011638;
   text-align: center;
