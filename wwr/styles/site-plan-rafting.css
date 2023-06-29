@@ -42,11 +42,10 @@ nav {
 }
 
 nav a {
-    display: block:
+    display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding 1rem
-    
+    padding: 1rem;    
 }
 
 nav a:link, nav a:visited {
