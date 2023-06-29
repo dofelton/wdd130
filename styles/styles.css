@@ -31,7 +31,8 @@ main {
 
 aside {
   margin: 1em;
-  border: 1 px solid rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  border-width:1 px;
   padding: 1px;
   background-color: #FEF6C9;
   color: #011638;
