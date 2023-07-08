@@ -8,20 +8,20 @@
     
     --heading-font: 'PTSans', serif;
     --paragraph-font: 'Lato', serif;
-    
     --nav-background-color: #FEF6C9;
     --nav-link-color: #DE2E2B;
     --nav-hover-link-color: #0D21A1;
     --nav-hover-background-color: #FEF6C9
 }
 
-.hero {
+div .hero {
     position: relative;
 
 }
 
-.hero img {
+div .hero img {
     display: block;
+    position: absolute;
     width: 100%;
     height: auto
 }
@@ -30,6 +30,7 @@
     position: absolute;
 }
 
-.hero article {
+.hero article img {
     position: absolute;
+    float: right
 }
