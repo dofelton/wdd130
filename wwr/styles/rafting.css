@@ -27,7 +27,7 @@ header nav {
     align-items: center;
     justify-content: space-around;
     font-size; 1.2rem;
-    
+
 }
 header nav a {
     border: 1px solid blue;
@@ -51,8 +51,8 @@ div .hero img {
     position: absolute;
 }
 
-.hero article img {
-    position: absolute;
+.hero h2 article img {
+    position: relative;
     float: right
 }
 
