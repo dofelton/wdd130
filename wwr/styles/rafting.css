@@ -54,14 +54,26 @@ main section {
 
 .adventure {
     display: flex;
-    /* grid-template-columns: repeat(5, 1fr); */
+    grid-template-columns: repeat(5, 1fr);
 
 }
 
+.employees {
+    width: 700px;
+    display: flex;
+}
 footer p {
     float: left;
 }
+ footer a {
+    float: right;
+    position: relative;
+    right: 50%;
+    order: 1;
+ }
 
 footer nav {
     float: right
+    
 }
+
