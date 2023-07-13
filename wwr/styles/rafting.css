@@ -21,6 +21,10 @@ header {
     margin: 1rem auto;
 }
 
+.logo {
+    border: 1px solid black;
+}
+
 header nav {
     display: flex;
     justify-content: center;
@@ -32,30 +36,16 @@ header nav a {
     background-color: #FEF6C9;
 }
 
-div .hero {
+.hero div {
     position: relative;
-
 }
 
-div .hero img {
-    background-image: url(images/hero_image.jpg);
-    /* display: block;
-    position: absolute;
-    width: 100%;
-    height: auto */
-}
-
-.hero h1 {
+.hero div h1 {
     position: absolute;
 }
 
-.hero h2 article img {
-    position: relative;
-    float: right
-}
-
-.logo {
-    border: 1px solid black;
+.hero div article {
+    position: absolute;
 }
 
 main section {

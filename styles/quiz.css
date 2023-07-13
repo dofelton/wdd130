@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    align-items: center;
+}
+div {
+    margin: 10px;
+    padding: 10px;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea, text, number {
+    padding: 0.5;
+    font-size: 1.1rem;
+    margin: 10px;
+}
