@@ -8,7 +8,7 @@ header, footer, .grid {
   max-width: 840px;
   margin: 0 auto;
 }
-
+/* Class Selectors */
 .grid {
   display: grid;
   align-items: center;
